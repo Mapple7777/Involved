@@ -16,7 +16,15 @@ py -m pip install -r requirements.txt
 ```
 Now Compile To Exe:
 ```
-py -m pyinstaller --onefile --noconsole Involved.py
+py -m PyInstaller --onefile --noconsole Involved.py
+```
+If You Don't Have PyInstaller Installed Do:
+```
+py -m pip install pyinstaller
+```
+If You Get An Error 'AttributeError: module 'enum' has no attribute 'IntFlag' When Using PyInstaller Do:
+```
+py -m pip uninstall enum34
 ```
 Now Rename The File To A Custom Name.
 
