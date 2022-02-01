@@ -1,1 +1,8 @@
-\
+discord
+pyautogui
+pywin32
+pygame
+psutil
+mss
+pycaw
+browserhistory
