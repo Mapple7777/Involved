@@ -1,6 +1,6 @@
 # // Settings 
-Token = 'OTM3MDg3MzUzMjIxMTg1NTM2.YfWomw.AaK6CJniaoOBDmMrdGRxhxkoF1g'
-AutoAddToStartup = False
+Token = ''
+AutoAddToStartup = True
 
 # // Misc
 Version = '1.0'
